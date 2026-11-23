@@ -1,0 +1,4 @@
+fecha,tipo,detalle,referencia
+2026-11-05 18:30:00,Expediente,Denuncia de la víctima en la Unidad Fiscal,Denuncia 4411/26
+2026-11-07 16:20:00,Expediente,Secuestro del teléfono; se pone en modo avión,Acta 123/26
+2026-11-07 16:35:00,Expediente,adb_triage.py: reloj del teléfono -180 s respecto de la PC,acta_extraccion.md

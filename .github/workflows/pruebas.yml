@@ -1,0 +1,32 @@
+name: Pruebas
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  pruebas:
+    name: ${{ matrix.os }} · Python ${{ matrix.python }}
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+        python: ["3.10", "3.13"]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+      - run: pip install -r requirements.txt
+      - run: python -m unittest -v
+      - name: La demo se regenera y da la misma línea de tiempo
+        shell: bash
+        run: |
+          cp demo/salida/linea_tiempo.csv esperado.csv
+          bash demo/correr_demo.sh > /dev/null
+          # se comparan las columnas de fecha, fuente, tipo y marcas (el detalle de las fotos incluye hashes
+          # que dependen de la versión de Pillow)
+          diff <(cut -d, -f1-4 esperado.csv) <(cut -d, -f1-4 demo/salida/linea_tiempo.csv)
+          grep -q "29 eventos (5 con marcas para revisar)" demo/salida/consola.txt

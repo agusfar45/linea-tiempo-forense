@@ -1,0 +1,54 @@
+[WhatsApp] 13 eventos · sha256 17a0768e6cb32502… OK
+[Fotos] 3 eventos · sha256 1b3932e74ce25d86… OK
+    - reloj del equipo atrasado 180 s: se sumaron 180 s a sus horas
+[Sistema de archivos] 7 eventos · sha256 e935fd697a2139ee… OK
+    - reloj del equipo atrasado 180 s: se sumaron 180 s a sus horas
+[Home banking] 3 eventos · sha256 6c5f1821aa96d4e1… OK
+[Expediente] 3 eventos · sha256 44bc79e700804f50… OK
+
+=== domingo 14/05/2023 ===
+10:20:11  Foto                       IMG-20261102-WA0007.jpg · Canon EOS 250D · GPS 40.4168, -3.7038 · recibida por WhatsApp el 02/11/202  [DISCREPANCIA]
+
+=== domingo 01/11/2026 ===
+09:02:11  Banco                      Acreditación de haberes · +812.400,00
+
+=== lunes 02/11/2026 ===
+18:40:10  WhatsApp enviado           → Marcos notebook (5493875550142): Hola! Vi tu publicación de la notebook. ¿Sigue disponible?
+18:42:31  WhatsApp recibido          ← Marcos notebook (5493875550142): Hola, sí. Está impecable, casi sin uso. Te mando fotos
+18:43:05  WhatsApp recibido          ← Marcos notebook (5493875550142): [adjunto, message_type=1]
+18:43:08  Archivo m.cb               /data/media/0/DCIM/WhatsApp Images/IMG-20261102-WA0007.jpg (48211 bytes, r/rrw-rw----)  [DESFASE CORREGIDO]
+18:43:09  Archivo .a..               /data/media/0/DCIM/WhatsApp Images/IMG-20261102-WA0007.jpg (48211 bytes, r/rrw-rw----)  [DESFASE CORREGIDO]
+18:49:52  WhatsApp enviado           → Marcos notebook (5493875550142): Está linda. ¿Cuánto pedís?
+18:51:14  WhatsApp recibido          ← Marcos notebook (5493875550142): $650.000. Si me transferís mañana temprano te la reservo, hay otr
+18:53:40  WhatsApp enviado           → Marcos notebook (5493875550142): Dale, mañana te transfiero
+
+=== martes 03/11/2026 ===
+10:12:40  WhatsApp enviado           → Marcos notebook (5493875550142): Listo, transfiero ahora. Pasame el CBU
+10:13:22  WhatsApp recibido          ← Marcos notebook (5493875550142): CBU 0000003100099999999999 a nombre de M. Gómez
+10:14:50  Banco                      Transferencia a CBU 0000003100099999999999 (M. GOMEZ) · -650.000,00
+10:15:12  Archivo m..b               /data/media/0/Download/comprobante_650000.pdf (deleted) (120442 bytes, r/rrw-rw----)  [BORRADO, DESFASE CORREGIDO]
+10:15:31  Imagen (fecha del nombre)  Screenshot_20261103_101231.jpg · sin EXIF · sin GPS  [SIN EXIF, DESFASE CORREGIDO]
+10:15:31  Archivo m.cb               /data/media/0/DCIM/Screenshots/Screenshot_20261103_101231.jpg (30120 bytes, r/rrw-rw----)  [DESFASE CORREGIDO]
+10:15:40  Archivo .a..               /data/media/0/Download/comprobante_650000.pdf (deleted) (120442 bytes, r/rrw-rw----)  [BORRADO, DESFASE CORREGIDO]
+10:16:00  Archivo .a..               /data/media/0/DCIM/Screenshots/Screenshot_20261103_101231.jpg (30120 bytes, r/rrw-rw----)  [DESFASE CORREGIDO]
+10:16:02  WhatsApp enviado           → Marcos notebook (5493875550142): [adjunto, message_type=1]
+10:18:47  WhatsApp recibido          ← Marcos notebook (5493875550142): Recibido 👍 mañana la despacho por correo
+
+=== miércoles 04/11/2026 ===
+09:30:15  WhatsApp enviado           → Marcos notebook (5493875550142): Hola, ¿me pasás el código de seguimiento?
+20:02:51  WhatsApp enviado           → Marcos notebook (5493875550142): ??
+
+=== jueves 05/11/2026 ===
+11:15:03  WhatsApp enviado           → Marcos notebook (5493875550142): Te estoy llamando y no atendés. Voy a hacer la denuncia
+11:20:33  Archivo ..c.               /data/media/0/Download/comprobante_650000.pdf (deleted) (120442 bytes, r/rrw-rw----)  [BORRADO, DESFASE CORREGIDO]
+12:40:02  Banco                      Reclamo 77812: desconocimiento de transferencia · 0,00
+18:30:00  Expediente                 Denuncia de la víctima en la Unidad Fiscal
+
+=== viernes 06/11/2026 ===
+09:41:07  Foto                       IMG_20261106_093807.jpg · samsung SM-A546E · GPS -24.7859, -65.4117  [ZONA SUPUESTA, DESFASE CORREGIDO]
+
+=== sábado 07/11/2026 ===
+16:20:00  Expediente                 Secuestro del teléfono; se pone en modo avión
+16:35:00  Expediente                 adb_triage.py: reloj del teléfono -180 s respecto de la PC
+
+29 eventos (5 con marcas para revisar) -> demo\salida\linea_tiempo.html
